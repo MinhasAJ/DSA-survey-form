@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheets" href="survey.css">
+        <title>DSA survey form</title>
+
+        <style>
+
+            .main-container{
+                width: 400px;
+                display: block;
+                margin: auto;
+                border-color: black;
+                border-style: solid;
+                border-width: 1px;
+            }
+
+            .main{
+                font-size: 30px;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .first-main{
+                width: 300px;
+                display: block;
+                margin: auto;
+                margin-bottom: 10px;
+                padding: 15px;
+                
+            }
+
+            .search-bar{
+                width: 250px;
+                padding: 7px;
+                font-size: 15px;
+                display: block;
+                margin: auto;
+            }
+
+            
+
+            .paragraphs{
+                font-size: 19px;
+                margin-bottom: 5px;
+                margin-left: 16px;
+            }
+
+            .single-second-header{
+                width: 300px;
+                font-size: 18px;
+                font-weight: 500;
+               display: block;
+               margin: auto;
+               text-decoration: underline;
+            }
+
+            .second-division{
+                width: 400px;
+                padding-left: 40px;
+                padding-top: 13px;
+            }
+
+            .tick-mark{
+                display: flex;
+            }
+
+            .description{
+                margin-left: 10px;
+            }
+
+            .button-class{
+               
+                background-color: black;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                transition: opacity 0.15s;
+
+            }
+
+            .button-class:hover{
+                cursor: pointer;
+            }
+
+            .button-class:active{
+                opacity: 0.7;
+            }
+          
+        </style>
+       
+
+    </head>
+    <body>
+             
+        <p class="main">
+            DSA SURVEY FORM
+        </p>
+
+        <div class="main-container">
+            <div class="first-main">
+                <div>
+                  <p class="paragraphs">Name</p>
+                  <input   class="search-bar" type="text" placeholder="Write Name">
+                </div>
+                <div>
+                    <p class="paragraphs">Email</p>
+                    <input  class="search-bar" type="text" placeholder="Write Email">
+                </div>
+
+                <div>
+                    <p class="paragraphs">Age</p>
+                    <input class="search-bar" type="text" placeholder="Type Age">
+                </div>
+            </div>
+
+            <div class="single-second-header">
+                TOPICS COVERED
+            </div>
+
+
+         <div class="second-division">
+         
+            <div class="tick-mark">
+                <input type="checkbox">
+                <p class="description"> Arrays</p>
+            </div>
+            <div class="tick-mark">
+                <input type="checkbox">
+                <p class="description">Linked list</p>
+            </div>
+            <div class="tick-mark">
+                <input type="checkbox">
+                <p class="description"> Hashing</p>
+            </div>
+            <div class="tick-mark">
+                <input type="checkbox">
+                <p class="description"> Graphs</p>
+            </div>
+            <div class="tick-mark">
+                <input type="checkbox">
+                <p class="description">Trees</p>
+            </div>
+
+
+         </div>
+
+         <div class="button-class">
+            SUBMIT
+         </div>
+
+        </div>
+       
+        
+
+    </body>
+    </html>
